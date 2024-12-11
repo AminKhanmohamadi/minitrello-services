@@ -6,6 +6,6 @@ server {
     }
 
     location /{
-        proxy_pass http://${APP_HOST}:${APP_PORT};
+        proxy_pass http://${APP_HOST}:${APP_LISTEN};
     }
 }
